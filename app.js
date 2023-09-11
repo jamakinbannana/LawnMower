@@ -32,11 +32,11 @@ var tileBasePrice = 150;
 
 var tickBasePrice = 5;
 
-var growthRateMultiplier = 10;
-var tickBaseMultiplier = 10;
-var mowerRateMultiplier = 20;
-var mowerSizeMultiplier = 10;
-var tileSizeMultiplier = 30;
+var growthRateMultiplier = 1.5;
+var tickBaseMultiplier = 1.5;
+var mowerRateMultiplier = 1.5;
+var mowerSizeMultiplier = 1.5;
+var tileSizeMultiplier = 1.5;
 var currentlyPrestiging = false;
 
 function Area(name, multiplierBuff, initialBuff, baseColor, grownColor, machineColor, unlockPrice, message, value, machineName, hmm){
