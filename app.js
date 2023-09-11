@@ -361,8 +361,8 @@ function attemptPrestige(){
 
 function reset(){
     mulch += nextMulch;
-    money = 0;
-    totalMoney = 0;
+    money = 5000000000;
+    totalMoney = 5000000000;
     
     
     fields = [];
