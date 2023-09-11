@@ -3,8 +3,8 @@ window.onload = setup;
 var width = 500;
 var height = 500;
 
-var money = 5000000000000000;
-var totalMoney = 5000000000000000;
+var money = 0;
+var totalMoney = 0;
 
 var canvas;
 var ctx;
@@ -16,10 +16,10 @@ var tileSizes = [50,25,20,10,5,4,2,1];
 
 var maxGrowth = 15;
 
-var mulch = 0;
+var mulch = 900000000000000;
 
 var activeField;
-var growthBonus = 0;
+var growthBonus = 5000000000000;
 
 var currentPosition = 0;
 var unlockedFields = 1;
@@ -32,11 +32,11 @@ var tileBasePrice = 150;
 
 var tickBasePrice = 5;
 
-var growthRateMultiplier = 1.2;
-var tickBaseMultiplier = 1.2;
-var mowerRateMultiplier = 2.5;
-var mowerSizeMultiplier = 1.5;
-var tileSizeMultiplier = 3.5;
+var growthRateMultiplier = 10;
+var tickBaseMultiplier = 10;
+var mowerRateMultiplier = 20;
+var mowerSizeMultiplier = 10;
+var tileSizeMultiplier = 30;
 var currentlyPrestiging = false;
 
 function Area(name, multiplierBuff, initialBuff, baseColor, grownColor, machineColor, unlockPrice, message, value, machineName, hmm){
