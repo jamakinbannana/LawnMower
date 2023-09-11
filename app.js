@@ -3,18 +3,18 @@ window.onload = setup;
 var width = 500;
 var height = 500;
 
-var money = 0;
-var totalMoney = 0;
+var money = 900000000000000;
+var totalMoney = 900000000000000;
 
 var canvas;
 var ctx;
 
 var fields = [];
 
-var nextMulch = 0;
+var nextMulch = 900000000000000;
 var tileSizes = [50,25,20,10,5,4,2,1];
 
-var maxGrowth = 15;
+var maxGrowth = 900000000000000;
 
 var mulch = 900000000000000;
 
