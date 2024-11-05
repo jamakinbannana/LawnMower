@@ -3,23 +3,23 @@ window.onload = setup;
 var width = 500;
 var height = 500;
 
-var money = 900000000000000;
-var totalMoney = 900000000000000;
+var money = 0;
+var totalMoney = 0;
 
 var canvas;
 var ctx;
 
 var fields = [];
 
-var nextMulch = 900000000000000;
+var nextMulch = 0;
 var tileSizes = [50,25,20,10,5,4,2,1];
 
-var maxGrowth = 900000000000000;
+var maxGrowth = 15;
 
-var mulch = 900000000000000;
+var mulch = 0;
 
 var activeField;
-var growthBonus = 5000000000000;
+var growthBonus = 0;
 
 var currentPosition = 0;
 var unlockedFields = 1;
@@ -38,6 +38,7 @@ var mowerRateMultiplier = 2.5;
 var mowerSizeMultiplier = 1.5;
 var tileSizeMultiplier = 3.5;
 var currentlyPrestiging = false;
+
 function Area(name, multiplierBuff, initialBuff, baseColor, grownColor, machineColor, unlockPrice, message, value, machineName, hmm){
     
     this.baseColor = baseColor;
@@ -360,8 +361,8 @@ function attemptPrestige(){
 
 function reset(){
     mulch += nextMulch;
-    money = 5000000000;
-    totalMoney = 5000000000;
+    money = 0;
+    totalMoney = 0;
     
     
     fields = [];
